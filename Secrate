@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HappyBirthDayMyHoney</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+  
+  
+ <body class="h-screen flex items-center justify-center bg-blue-50">
+
+  <div class="bg-white border px-10 py-8 border-4 border-grey-400 shadow-lg shadow-blue-700 rounded-xl text-center animate__animated animate__backInDown w-80" id="kartu">
+    <h1 class="text-3xl font-bold">HAPPY BIRTH DAYY!!</h1>
+    <h1 class="text-4xl text-blue-500 font-bold animate__animated animate__pulse animate__infinite">بَارَكَ اللّٰهُ فِيْ عُمْرِكَ</h1>
+
+    <button class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-2s animate__tada" onclick="ubahkartu()">
+      TEKAN
+    </button>
+  </div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<script>
+confetti({
+particleCount: 100,
+spread: 70,
+origin: { y:0.6},
+});
+</script>
+
+<script>
+  
+let kartu = document.getElementById("kartu");
+function ubahkartu(){
+  kartu.innerHTML =`<h1>Selamat ulang tahun sayanggg, akuu harapp di umur kamuu sekarangg bisaa menjadii lebihh baikk</h1>
+  <h2>fffffff</h2>
+  <button class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-2s animate__tada" onclick="ubahkatu()">
+    tekan</button> `;
+}
+
+</script> 
+<script>
+function ubahkartu(){
+  kartu.innerHTML = `<h1>SELAMAT ULANG TAHUN SAYANGG!! 
+AKUU HARAPP DALAM UMUR KAMUU YANGG SEKARANG KAMU BISA MENJADI LEBIH BAIKK, KAMUU BISA LEBIH MENYAYANGI DIRI KAMU SENDIRII, KAMU LEBIH MENGHARGAI APA YANG KAMU PUNYA.
+AKU SELALU MENDO'AKANMU, SEMOGA KEBAHAGIAAN SELALU MENYERTAIMU. . AKU SANGAT SENANG KETIKA KAMU TERSENYUM. 
+JAGA SELALU SENYUM MANISMU YAA, JANGAN BIARKAN SUATU HAL MENGHANCURKAN HATI KECILMU. AKU TIDAK INGIN SENYUM MANISMU MENJADI HILANG KARENA HATI KECILMU SAKITT ❤‍🩹</h1>
+  <h2></h2>
+  <button id="tombol2" class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-2s animate__tada">
+    SELANJUTNYA ➹
+  </button>`;
+
+  // Menambahkan event listener kembali setelah elemen dibuat
+  document.getElementById("tombol2").addEventListener("click", ubahkartu1);
+}
+
+function ubahkartu1(){
+  kartu.innerHTML = `<h1></h1> <h2>DI DUNIA INI BANYAK SEKALI ORANG YANG BAIK, KAMU SALAH SATUNYA. 
+AKU SELALU BERSUKUR KARENA BISA BERTEMU DENGANMU, DENGAN SEORANG WANITA YANG SANGAT BAIK, BAIK PERILAKUNYA, JUGA BAIK HATINYA. HATIMU SANGAT CANTIK, TIDAK ADA YANG BISA MENANDINGI KECANTIKAN HATIMU, TIDAK ADA!. 
+KAMU ADALAH WANITA YANG KUATT, BUKTINYA KAMU SUDAH MELEWATI BANYAK MASALAH YANG SANGAT BERAT. BAHKAN AKU SEKALIPUN TIDAK AKAN SANGGUP JIKA TERTIMPA MASALAH SEPERTI ITU. TAPI, NYATANYA KAMU BISA MELEWATI ITU SEMUA.. AKUU BANGGA BANGETT SAMAA KAMUU... JANGANN PERNAH MENYERAHH YAAA!!!!</h2>
+ <button id="tombol2" class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-full animate__animated animate__delay-2s animate__tada">
+    SELANJUTNYA ➹
+  </button>
+  `;
+}
+
+</script>
+
+<script>
+function ubahkartu1(){
+  kartu.innerHTML = `<h1></h1> <h2>DI DUNIA INI BANYAK SEKALI ORANG YANG BAIK, KAMU SALAH SATUNYA. 
+AKU SELALU BERSUKUR KARENA BISA BERTEMU DENGANMU, DENGAN SEORANG WANITA YANG SANGAT BAIK, BAIK PERILAKUNYA, JUGA BAIK HATINYA. HATIMU SANGAT CANTIK, TIDAK ADA YANG BISA MENANDINGI KECANTIKAN HATIMU, TIDAK ADA!. 
+KAMU ADALAH WANITA YANG KUATT, BUKTINYA KAMU SUDAH MELEWATI BANYAK MASALAH YANG SANGAT BERAT. BAHKAN AKU SEKALIPUN TIDAK AKAN SANGGUP JIKA TERTIMPA MASALAH SEPERTI ITU. TAPI, NYATANYA KAMU BISA MELEWATI ITU SEMUA.. AKUU BANGGA BANGETT SAMAA KAMUU... JANGANN PERNAH MENYERAHH YAAA!!!!</h2>
+`;
+}
+</script>
+<script>
+  
+
+      
+ 
+
+
+  
+</script>
+
+</body>
+
+ 
+ 
+
+  
+
+
+</html>
