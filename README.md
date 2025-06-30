@@ -1,2 +1,0 @@
-# taufycamundsend
-deskripsi
